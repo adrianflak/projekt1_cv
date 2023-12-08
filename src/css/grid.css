@@ -1,0 +1,35 @@
+.container {
+    max-width: 890px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 10px -5px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 10px -5px rgba(66, 68, 90, 1);
+
+}
+.flex {
+    display: flex;
+}
+/* Jeżeli chcemy aby element był jeden pod drugim */
+.flex-column {
+    flex-direction: column;
+}
+/* Jeżeli chcemy aby elementy były obok siebie */
+.flex-row {
+    flex-direction: row;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+/* Jeżeli chcemy wyśrodkować elementy względem wysokości wierszy */
+.align-items {
+    align-items: center;
+}
+.jc-space-around {
+    justify-content: space-around;
+}
+.col-left {
+    width: 40%;
+} 
+.col-right {
+    width: 60%;
+}
